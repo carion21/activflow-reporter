@@ -1,0 +1,33 @@
+
+KEYS = [
+    "CORE_URL",
+    "ROUTE_OF_CORE_FOR_AUTH",
+    "ROUTE_OF_CORE_FOR_REPORT",
+    "ROUTE_OF_CORE_FOR_STORE",
+    "MINIO_BUCKET_NAME",
+    "MINIO_HOST",
+    "MINIO_PORT",
+    "MINIO_PROXY",
+    "MINIO_ACCESS_KEY",
+    "MINIO_SECRET_KEY",
+    "SYS_USERNAME",
+    "SYS_PASSWORD",
+]
+
+N_PROCESSOR = 2
+
+APP_NAME = "ACTIVFLOW-REPORTER"
+LOG_DIRECTORY = "logs"
+LOG_CONST = "{}, {}"
+DATA_DIRECTORY = "data"
+TEMP_DIRECTORY = "temp"
+NLIMIT = 3000
+MAX_RETRIES = 3
+
+MINIO_DEFAULT_DURATION = 30
+
+MINIO_TYPES = [
+    "file",
+    "image",
+    "multi-image"
+]
